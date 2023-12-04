@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #1f2937;
+    color: white;
+}
+
+.hero {
+    background-color: #1f2937;
+    color: white;
+}
+
+.services {
+    background-color: white;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.call-to-action {
+    background-color: white;
+}
+
+.cta-container {
+    background-color: #3b82f6;
+    color: white;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+}
