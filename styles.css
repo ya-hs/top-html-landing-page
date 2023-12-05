@@ -9,12 +9,17 @@ body {
 }
 
 .section {
-    padding: 15px 250px;
+    padding-left: 250px;
+    padding-right: 250px;
 }
 
 
-/* ********************************  */
-/* Header  */
+
+
+
+
+/* ************************************************************  */
+/*                           HEADER                              */
 
 .header {
     background-color: #1f2937;
@@ -22,6 +27,8 @@ body {
 
     display: flex;
     justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 ul {
@@ -38,31 +45,74 @@ a {
 
 
 
-/* ********************************  */
-/* Hero  */
+
+
+/* ************************************************************  */
+/*                           HERO                                */
 
 .hero {
     background-color: #1f2937;
     color: white;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 50px;
+}
+
+.hero-img {
+    height: 200px;
+    width: 550px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-btn {
+    width: 125px;
 }
 
 
 
 
 
-/* ********************************  */
-/* Services  */
+
+
+/* ************************************************************  */
+/*                          SERVICES                             */
 
 .services {
     background-color: white;
+
+    padding-top: 50px;
+    padding-bottom: 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.service-img {
+    width: 150px;
+    height: 150px;
 }
 
 
 
 
 
-/* ********************************  */
-/* Quote Section  */
+
+/* ************************************************************  */
+/*                        QUOTE SECTION                          */
 
 .quote-section {
     background-color: #e5e7eb;
@@ -72,8 +122,11 @@ a {
 
 
 
-/* ********************************  */
-/* Call to Action  */
+
+
+
+/* ************************************************************  */
+/*                      CALL TO ACTION                           */
 
 .call-to-action {
     background-color: white;
@@ -88,8 +141,11 @@ a {
 
 
 
-/* ********************************  */
-/* Footer  */
+
+
+
+/* ************************************************************  */
+/*                           FOOTER                              */
 
 .footer {
     background-color: #1f2937;
