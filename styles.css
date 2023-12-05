@@ -80,9 +80,9 @@ a {
     gap: 75px;
 }
 
-.hero-img {
-    height: 200px;
-    width: 450px;
+.title {
+    font-size: 48px;
+    font-weight: 900;
 }
 
 .hero-text {
@@ -91,6 +91,11 @@ a {
     flex: 1;
     font-size: 18px;
     font-weight: 100;
+}
+
+.hero-img {
+    height: 200px;
+    width: 450px;
 }
 
 .hero-btn {
@@ -103,11 +108,14 @@ a {
     font-weight: 900;
     border-radius: 6px;
 
+    transition: 0.3s;
 }
 
-.title {
-    font-size: 48px;
-    font-weight: 900;
+.hero-btn:hover {
+    background-color: var(--bg-color-eggplant);
+    border: 1px solid var(--bg-color-yellow);
+    color: var(--bg-color-yellow);
+    cursor: pointer;
 }
 
 
@@ -179,6 +187,15 @@ a {
 
     padding-top: 150px;
     padding-bottom: 150px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.quote-container {
+    width: 800px;
 }
 
 blockquote {
@@ -186,10 +203,13 @@ blockquote {
     font-weight: 100;
     font-style: italic;
     color: #1F2937;
-    width: 750px;
+    width: 800px;
 }
 
-
+.attribute {
+    text-align: right;
+    color: #1F2937;
+}
 
 
 
@@ -204,10 +224,39 @@ blockquote {
 .cta-container {
     background-color: var(--bg-color-yellow);
     color: var(--bg-color-eggplant);
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    padding: 40px 75px 40px 75px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 15px;
 }
 
+.cta-btn {
+    width: 100px;
+    height: 30px;
 
+    color: var(--bg-color-eggplant);
+    background-color: var(--bg-color-yellow);
+    border: 2px solid var(--bg-color-eggplant);
+    border-radius: 6px;
 
+    font-weight: 700;
+
+    transition: 0.3s
+}
+
+.cta-btn:hover {
+    background-color: var(--bg-color-eggplant);
+    color: var(--bg-color-yellow);
+
+    cursor: pointer;
+}
 
 
 
@@ -219,4 +268,9 @@ blockquote {
 .footer {
     background-color: var(--bg-color-eggplant);
     color: white;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    text-align: center;
 }
